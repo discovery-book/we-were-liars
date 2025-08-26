@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f5e9; /* ton parchemin clair */
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: url("../images/papier-vieux.jpg") no-repeat center center;
+  background-size: cover;
+  border: 1px solid #cbbf9d;
+  border-radius: 8px;
+  max-width: 600px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card img {
+  max-width: 200px;       
+  width: 100%;
+  height: auto;          
+  border-radius: 4px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #2a2a2a;
+}
+
+.role {
+  font-style: italic;
+  color: #5c4c3d;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+}
+
+.relations {
+  margin: 20px 0;
+}
+
+.relations span {
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 4px;
+  font-size: 0.9rem;
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+}
+
+.relations span a {
+  text-decoration: none;
+  color: #222;
+}
+
+.quote {
+  font-style: italic;
+  color: #444;
+  margin: 20px 0;
+}
+
+.secret {
+  margin-top: 20px;
+  padding: 8px;
+  background: rgba(255,255,255,0.6);
+  border: 1px dashed #aaa;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+  margin-top: 10px;
+  color: #333;
+}
+
